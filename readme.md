@@ -1,4 +1,4 @@
-# Scraper Vortx DCM - Coleta de Emissões de Títulos de Dívida (v2 - API)
+# Scraper Vortx DCM (v2 - API)
 
 Este projeto é um **Scraper** desenvolvido em Python para coletar dados de emissões de títulos de dívida (CRA, CRI, Debêntures, LF, etc.) diretamente da plataforma **Vortx DCM**. Ele utiliza a API REST da Vortx para dados estruturados e Selenium para a extração de documentos PDF.
 
