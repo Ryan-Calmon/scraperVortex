@@ -1,0 +1,55 @@
+2026-03-03 09:07:29,042 [INFO] Configuracoes:
+2026-03-03 09:07:29,042 [INFO]   DB: C:\Users\RyanCalmonIdexAnalyt\OneDrive - JGP Gestão de Crédito Ltda\Desktop\Ativos\scripts\vortx_dcm.db
+2026-03-03 09:07:29,042 [INFO]   Documentos: C:\Users\RyanCalmonIdexAnalyt\OneDrive - JGP Gestão de Crédito Ltda\Desktop\Ativos\scripts\documentos
+2026-03-03 09:07:29,042 [INFO]   Logs: C:\Users\RyanCalmonIdexAnalyt\OneDrive - JGP Gestão de Crédito Ltda\Desktop\Ativos\scripts\logs\scraper_20260303_090729.log
+2026-03-03 09:07:29,042 [INFO]   Modo: Scrape completo
+2026-03-03 09:07:29,043 [INFO] ============================================================
+2026-03-03 09:07:29,045 [INFO] INICIO - Scrape completo Vortx DCM (v2 - API)
+2026-03-03 09:07:29,045 [INFO] ============================================================
+2026-03-03 09:07:29,046 [INFO] Banco de dados inicializado: C:\Users\RyanCalmonIdexAnalyt\OneDrive - JGP Gestão de Crédito Ltda\Desktop\Ativos\scripts\vortx_dcm.db
+2026-03-03 09:07:29,046 [INFO] -- Fase 1: Coleta da listagem via API --
+2026-03-03 09:07:30,187 [INFO] Total de operacoes na Vortx: 8070 (807 paginas). Coletando 807 paginas...
+2026-03-03 09:10:47,062 [INFO]   Listagem: pagina 100/807 (1000 operacoes coletadas)
+2026-03-03 09:12:29,041 [INFO]   Listagem: pagina 200/807 (2000 operacoes coletadas)
+2026-03-03 09:13:34,943 [INFO]   Listagem: pagina 300/807 (3000 operacoes coletadas)
+2026-03-03 09:14:49,468 [INFO]   Listagem: pagina 400/807 (4000 operacoes coletadas)
+2026-03-03 09:16:05,443 [INFO]   Listagem: pagina 500/807 (5000 operacoes coletadas)
+2026-03-03 09:17:12,346 [INFO]   Listagem: pagina 600/807 (6000 operacoes coletadas)
+2026-03-03 09:19:21,484 [INFO]   Listagem: pagina 700/807 (7000 operacoes coletadas)
+2026-03-03 09:23:00,056 [INFO]   Listagem: pagina 800/807 (8000 operacoes coletadas)
+2026-03-03 09:23:05,384 [INFO] Listagem completa: 8070 operacoes coletadas.
+2026-03-03 09:23:09,149 [INFO] Listagem salva: 8070 operacoes, 0 erros.
+2026-03-03 09:23:09,149 [INFO] -- Fase 2: Detalhes via API --
+2026-03-03 09:23:09,149 [INFO] Buscando detalhes de 5344 operacoes...
+2026-03-03 09:23:51,978 [INFO]   Detalhes: 200/5344 (3.7%) - ok=200, 404=0, erros=0
+2026-03-03 09:24:35,503 [INFO]   Detalhes: 400/5344 (7.5%) - ok=400, 404=0, erros=0
+2026-03-03 09:26:16,120 [INFO]   Detalhes: 600/5344 (11.2%) - ok=600, 404=0, erros=0
+2026-03-03 09:28:08,226 [INFO]   Detalhes: 800/5344 (15.0%) - ok=800, 404=0, erros=0
+2026-03-03 09:29:42,019 [INFO]   Detalhes: 1000/5344 (18.7%) - ok=1000, 404=0, erros=0
+2026-03-03 09:33:21,762 [INFO]   Detalhes: 1200/5344 (22.5%) - ok=1200, 404=0, erros=0
+2026-03-03 09:39:02,475 [INFO]   Detalhes: 1400/5344 (26.2%) - ok=1400, 404=0, erros=0
+2026-03-03 09:40:54,133 [INFO]   Detalhes: 1600/5344 (29.9%) - ok=1600, 404=0, erros=0
+2026-03-03 09:42:48,698 [INFO]   Detalhes: 1800/5344 (33.7%) - ok=1800, 404=0, erros=0
+2026-03-03 09:44:29,329 [INFO]   Detalhes: 2000/5344 (37.4%) - ok=2000, 404=0, erros=0
+2026-03-03 09:46:34,153 [INFO]   Detalhes: 2200/5344 (41.2%) - ok=2200, 404=0, erros=0
+2026-03-03 09:50:05,991 [INFO]   Detalhes: 2400/5344 (44.9%) - ok=2400, 404=0, erros=0
+2026-03-03 09:54:31,906 [INFO]   Detalhes: 2600/5344 (48.7%) - ok=2600, 404=0, erros=0
+2026-03-03 09:57:06,683 [INFO]   Detalhes: 2800/5344 (52.4%) - ok=2800, 404=0, erros=0
+2026-03-03 10:00:20,562 [INFO]   Detalhes: 3000/5344 (56.1%) - ok=3000, 404=0, erros=0
+2026-03-03 10:03:13,387 [INFO]   Detalhes: 3200/5344 (59.9%) - ok=3200, 404=0, erros=0
+2026-03-03 10:08:23,339 [INFO]   Detalhes: 3400/5344 (63.6%) - ok=3400, 404=0, erros=0
+2026-03-03 10:10:29,760 [INFO]   Detalhes: 3600/5344 (67.4%) - ok=3600, 404=0, erros=0
+2026-03-03 10:12:25,753 [INFO]   Detalhes: 3800/5344 (71.1%) - ok=3800, 404=0, erros=0
+2026-03-03 10:14:15,283 [INFO]   Detalhes: 4000/5344 (74.9%) - ok=4000, 404=0, erros=0
+2026-03-03 10:16:20,211 [INFO]   Detalhes: 4200/5344 (78.6%) - ok=4200, 404=0, erros=0
+2026-03-03 10:19:40,162 [INFO]   Detalhes: 4400/5344 (82.3%) - ok=4400, 404=0, erros=0
+2026-03-03 10:23:52,082 [INFO]   Detalhes: 4600/5344 (86.1%) - ok=4600, 404=0, erros=0
+2026-03-03 10:26:11,589 [INFO]   Detalhes: 4800/5344 (89.8%) - ok=4800, 404=0, erros=0
+2026-03-03 10:28:58,082 [INFO]   Detalhes: 5000/5344 (93.6%) - ok=5000, 404=0, erros=0
+2026-03-03 10:30:44,363 [INFO]   Detalhes: 5200/5344 (97.3%) - ok=5200, 404=0, erros=0
+2026-03-03 10:31:54,119 [INFO] Detalhes concluido: 5344 atualizados, 0 nao encontrados, 0 erros.
+2026-03-03 10:31:54,119 [INFO] -- Fase 3: Historico de PU via API --
+2026-03-03 10:31:54,119 [INFO] Buscando PU de 5344 operacoes (completo)...
+2026-03-03 10:34:45,115 [INFO] Interrompido pelo usuario.
+2026-03-03 10:34:45,152 [INFO] Scrape completo finalizado.
+2026-03-03 10:34:45,152 [INFO] ============================================================

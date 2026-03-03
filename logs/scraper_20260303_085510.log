@@ -1,0 +1,52 @@
+2026-03-03 08:55:10,397 [INFO] Configuracoes:
+2026-03-03 08:55:10,397 [INFO]   DB: C:\Users\RyanCalmonIdexAnalyt\OneDrive - JGP Gestão de Crédito Ltda\Desktop\Ativos\scripts\vortx_dcm.db
+2026-03-03 08:55:10,397 [INFO]   Documentos: C:\Users\RyanCalmonIdexAnalyt\OneDrive - JGP Gestão de Crédito Ltda\Desktop\Ativos\scripts\documentos
+2026-03-03 08:55:10,397 [INFO]   Logs: C:\Users\RyanCalmonIdexAnalyt\OneDrive - JGP Gestão de Crédito Ltda\Desktop\Ativos\scripts\logs\scraper_20260303_085510.log
+2026-03-03 08:55:10,397 [INFO]   Modo: Scrape completo
+2026-03-03 08:55:10,398 [INFO] ============================================================
+2026-03-03 08:55:10,400 [INFO] INICIO - Scrape completo Vortx DCM (v2 - API)
+2026-03-03 08:55:10,400 [INFO] ============================================================
+2026-03-03 08:55:10,403 [INFO] Coluna 'vortx_id' adicionada a tabela emissoes.
+2026-03-03 08:55:10,404 [INFO] Coluna 'tipo_descricao' adicionada a tabela emissoes.
+2026-03-03 08:55:10,405 [INFO] Coluna 'quantidade_emitida' adicionada a tabela emissoes.
+2026-03-03 08:55:10,405 [INFO] Coluna 'pu_emissao' adicionada a tabela emissoes.
+2026-03-03 08:55:10,406 [INFO] Coluna 'remuneracao' adicionada a tabela emissoes.
+2026-03-03 08:55:10,407 [INFO] Coluna 'indexador' adicionada a tabela emissoes.
+2026-03-03 08:55:10,407 [INFO] Coluna 'taxa_juros' adicionada a tabela emissoes.
+2026-03-03 08:55:10,408 [INFO] Coluna 'amortizacao' adicionada a tabela emissoes.
+2026-03-03 08:55:10,409 [INFO] Coluna 'pagamento_juros' adicionada a tabela emissoes.
+2026-03-03 08:55:10,409 [INFO] Coluna 'distribuicao' adicionada a tabela emissoes.
+2026-03-03 08:55:10,410 [INFO] Coluna 'tipo_risco' adicionada a tabela emissoes.
+2026-03-03 08:55:10,411 [INFO] Coluna 'status' adicionada a tabela emissoes.
+2026-03-03 08:55:10,414 [INFO] Coluna 'vortx_id' adicionada a tabela historico_pu.
+2026-03-03 08:55:10,415 [INFO] Coluna 'valor_pu_vazio' adicionada a tabela historico_pu.
+2026-03-03 08:55:10,415 [INFO] Coluna 'juros' adicionada a tabela historico_pu.
+2026-03-03 08:55:10,416 [INFO] Coluna 'amortizacao' adicionada a tabela historico_pu.
+2026-03-03 08:55:10,416 [INFO] Coluna 'total' adicionada a tabela historico_pu.
+2026-03-03 08:55:10,417 [INFO] Coluna 'valor_juros' adicionada a tabela historico_pu.
+2026-03-03 08:55:10,417 [INFO] Coluna 'valor_nominal' adicionada a tabela historico_pu.
+2026-03-03 08:55:10,425 [INFO] Banco de dados inicializado: C:\Users\RyanCalmonIdexAnalyt\OneDrive - JGP Gestão de Crédito Ltda\Desktop\Ativos\scripts\vortx_dcm.db
+2026-03-03 08:55:10,425 [INFO] -- Fase 1: Coleta da listagem via API --
+2026-03-03 08:55:10,924 [INFO] Total de operacoes na Vortx: 8070 (807 paginas). Coletando 2 paginas...
+2026-03-03 08:55:11,499 [INFO] Listagem completa: 20 operacoes coletadas.
+2026-03-03 08:55:11,515 [INFO] Listagem salva: 20 operacoes, 0 erros.
+2026-03-03 08:55:11,515 [INFO] Limitado a 10 operacoes.
+2026-03-03 08:55:11,515 [INFO] -- Fase 2: Detalhes via API --
+2026-03-03 08:55:11,515 [INFO] Buscando detalhes de 10 operacoes...
+2026-03-03 08:55:13,521 [INFO] Detalhes concluido: 10 atualizados, 0 nao encontrados, 0 erros.
+2026-03-03 08:55:13,521 [INFO] -- Fase 3: Historico de PU via API --
+2026-03-03 08:55:13,522 [INFO] Buscando PU de 10 operacoes (completo)...
+2026-03-03 08:55:16,931 [INFO] PU concluido: 12849 registros de 10 operacoes, 0 erros.
+2026-03-03 08:55:16,931 [INFO] -- Fase 4: Documentos pulados (--skip-docs) --
+2026-03-03 08:55:16,937 [INFO] -- Estatisticas do banco --
+2026-03-03 08:55:16,937 [INFO]   emissoes_total            6,464
+2026-03-03 08:55:16,937 [INFO]   com_vortx_id              10
+2026-03-03 08:55:16,937 [INFO]   com_isin                  670
+2026-03-03 08:55:16,937 [INFO]   com_data_emissao          702
+2026-03-03 08:55:16,938 [INFO]   com_data_vencimento       702
+2026-03-03 08:55:16,938 [INFO]   registros_pu              25,669
+2026-03-03 08:55:16,938 [INFO]   ops_com_pu                675
+2026-03-03 08:55:16,938 [INFO]   documentos                0
+2026-03-03 08:55:16,938 [INFO]   docs_baixados             0
+2026-03-03 08:55:16,952 [INFO] Scrape completo finalizado.
+2026-03-03 08:55:16,952 [INFO] ============================================================

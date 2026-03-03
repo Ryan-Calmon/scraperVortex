@@ -1,0 +1,8 @@
+2026-03-03 08:54:30,018 [INFO] Configuracoes:
+2026-03-03 08:54:30,018 [INFO]   DB: C:\Users\RyanCalmonIdexAnalyt\OneDrive - JGP Gestão de Crédito Ltda\Desktop\Ativos\scripts\vortx_dcm.db
+2026-03-03 08:54:30,019 [INFO]   Documentos: C:\Users\RyanCalmonIdexAnalyt\OneDrive - JGP Gestão de Crédito Ltda\Desktop\Ativos\scripts\documentos
+2026-03-03 08:54:30,019 [INFO]   Logs: C:\Users\RyanCalmonIdexAnalyt\OneDrive - JGP Gestão de Crédito Ltda\Desktop\Ativos\scripts\logs\scraper_20260303_085430.log
+2026-03-03 08:54:30,019 [INFO]   Modo: Scrape completo
+2026-03-03 08:54:30,019 [INFO] ============================================================
+2026-03-03 08:54:30,021 [INFO] INICIO - Scrape completo Vortx DCM (v2 - API)
+2026-03-03 08:54:30,022 [INFO] ============================================================

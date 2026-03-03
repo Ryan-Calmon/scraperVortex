@@ -1,0 +1,33 @@
+2026-03-03 08:59:57,446 [INFO] Configuracoes:
+2026-03-03 08:59:57,446 [INFO]   DB: C:\Users\RyanCalmonIdexAnalyt\OneDrive - JGP Gestão de Crédito Ltda\Desktop\Ativos\scripts\vortx_dcm.db
+2026-03-03 08:59:57,447 [INFO]   Documentos: C:\Users\RyanCalmonIdexAnalyt\OneDrive - JGP Gestão de Crédito Ltda\Desktop\Ativos\scripts\documentos
+2026-03-03 08:59:57,447 [INFO]   Logs: C:\Users\RyanCalmonIdexAnalyt\OneDrive - JGP Gestão de Crédito Ltda\Desktop\Ativos\scripts\logs\scraper_20260303_085957.log
+2026-03-03 08:59:57,447 [INFO]   Modo: Scrape completo
+2026-03-03 08:59:57,447 [INFO] ============================================================
+2026-03-03 08:59:57,449 [INFO] INICIO - Scrape completo Vortx DCM (v2 - API)
+2026-03-03 08:59:57,449 [INFO] ============================================================
+2026-03-03 08:59:57,462 [INFO] Banco de dados inicializado: C:\Users\RyanCalmonIdexAnalyt\OneDrive - JGP Gestão de Crédito Ltda\Desktop\Ativos\scripts\vortx_dcm.db
+2026-03-03 08:59:57,462 [INFO] -- Fase 1: Coleta da listagem via API --
+2026-03-03 08:59:57,887 [INFO] Total de operacoes na Vortx: 8070 (807 paginas). Coletando 10 paginas...
+2026-03-03 09:00:03,427 [INFO] Listagem completa: 100 operacoes coletadas.
+2026-03-03 09:00:03,492 [INFO] Listagem salva: 100 operacoes, 0 erros.
+2026-03-03 09:00:03,493 [INFO] Limitado a 100 operacoes.
+2026-03-03 09:00:03,493 [INFO] -- Fase 2: Detalhes via API --
+2026-03-03 09:00:03,493 [INFO] Buscando detalhes de 100 operacoes...
+2026-03-03 09:00:26,363 [INFO] Detalhes concluido: 100 atualizados, 0 nao encontrados, 0 erros.
+2026-03-03 09:00:26,363 [INFO] -- Fase 3: Historico de PU via API --
+2026-03-03 09:00:26,363 [INFO] Buscando PU de 100 operacoes (completo)...
+2026-03-03 09:01:00,076 [INFO] PU concluido: 133329 registros de 95 operacoes, 0 erros.
+2026-03-03 09:01:00,076 [INFO] -- Fase 4: Documentos pulados (--skip-docs) --
+2026-03-03 09:01:00,082 [INFO] -- Estatisticas do banco --
+2026-03-03 09:01:00,083 [INFO]   emissoes_total            100
+2026-03-03 09:01:00,083 [INFO]   com_vortx_id              100
+2026-03-03 09:01:00,083 [INFO]   com_isin                  92
+2026-03-03 09:01:00,083 [INFO]   com_data_emissao          100
+2026-03-03 09:01:00,083 [INFO]   com_data_vencimento       100
+2026-03-03 09:01:00,083 [INFO]   registros_pu              133,329
+2026-03-03 09:01:00,083 [INFO]   ops_com_pu                95
+2026-03-03 09:01:00,084 [INFO]   documentos                0
+2026-03-03 09:01:00,084 [INFO]   docs_baixados             0
+2026-03-03 09:01:00,097 [INFO] Scrape completo finalizado.
+2026-03-03 09:01:00,098 [INFO] ============================================================

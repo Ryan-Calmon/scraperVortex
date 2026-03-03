@@ -1,0 +1,31 @@
+2026-03-02 14:37:25,255 [INFO] Configuracoes:
+2026-03-02 14:37:25,255 [INFO]   DB: C:\Users\RyanCalmonIdexAnalyt\OneDrive - JGP Gestão de Crédito Ltda\Desktop\Ativos\scripts\vortx_dcm.db
+2026-03-02 14:37:25,256 [INFO]   Documentos: C:\Users\RyanCalmonIdexAnalyt\OneDrive - JGP Gestão de Crédito Ltda\Desktop\Ativos\scripts\documentos
+2026-03-02 14:37:25,256 [INFO]   Logs: C:\Users\RyanCalmonIdexAnalyt\OneDrive - JGP Gestão de Crédito Ltda\Desktop\Ativos\scripts\logs\scraper_20260302_143725.log
+2026-03-02 14:37:25,256 [INFO]   Modo: Scrape completo
+2026-03-02 14:37:25,256 [INFO] ============================================================
+2026-03-02 14:37:25,256 [INFO] INICIO - Scrape completo Vortx DCM
+2026-03-02 14:37:25,257 [INFO] ============================================================
+2026-03-02 14:37:25,265 [INFO] Banco de dados inicializado: C:\Users\RyanCalmonIdexAnalyt\OneDrive - JGP Gestão de Crédito Ltda\Desktop\Ativos\scripts\vortx_dcm.db
+2026-03-02 14:37:26,353 [INFO] Chrome WebDriver inicializado (headless).
+2026-03-02 14:37:26,354 [INFO] -- Fase 1: Coleta da listagem --
+2026-03-02 14:37:30,708 [INFO] Banner de cookies fechado.
+2026-03-02 14:37:31,295 [INFO] Total de paginas detectado: 807
+2026-03-02 14:37:31,295 [INFO] Iniciando coleta de 1 paginas de listagem.
+2026-03-02 14:37:31,295 [INFO] Acessando pagina 1: https://www.vortx.com.br/investidor/dcm?pagina=1
+2026-03-02 14:37:34,623 [INFO] Encontradas 10 linhas na tabela (pagina 1)
+2026-03-02 14:37:35,055 [INFO] Coleta de listagem completa: 10 emissoes em 1 paginas.
+2026-03-02 14:37:35,055 [INFO] -- Fase 2: Detalhes das emissoes --
+2026-03-02 14:37:35,055 [INFO] Processando detalhes de 10 emissoes.
+2026-03-02 14:37:55,311 [INFO]   PU: 20 registros para RESERVA RAPOSO
+2026-03-02 14:38:14,926 [INFO]   PU: 20 registros para LEST
+2026-03-02 14:38:35,668 [INFO]   PU: 20 registros para MONTANINI
+2026-03-02 14:38:55,381 [INFO]   PU: 20 registros para NOVONOR
+2026-03-02 14:39:14,999 [INFO]   PU: 20 registros para FGTS II CAIXA
+2026-03-02 14:39:36,790 [INFO]   PU: 20 registros para FGTS CAIXA
+2026-03-02 14:39:59,054 [INFO]   PU: 20 registros para HSI GRANJA VIANNA DI
+2026-03-02 14:40:18,579 [INFO]   PU: 20 registros para FRIALTO
+2026-03-02 14:40:38,276 [INFO]   PU: 20 registros para OURO PRETO
+2026-03-02 14:40:59,012 [INFO]   PU: 20 registros para JDC
+2026-03-02 14:41:02,748 [INFO] Scrape completo finalizado.
+2026-03-02 14:41:02,748 [INFO] ============================================================
